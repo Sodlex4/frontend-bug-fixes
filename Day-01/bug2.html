@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Text Update Bug</title>
+</head>
+<body>
+  <h2>Bug #2: Update My Text!</h2>
+  <p id="message">This is the original message.</p>
+  <button onclick="updateText()">Change Text</button>
+
+  <script>
+    function updateText() {
+      let message = document.getElementById("message");
+      message.textContent = "Text has been updated!";
+    }
+  </script>
+</body>
+</html>
