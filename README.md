@@ -26,10 +26,15 @@ This project helps me:
 
 ---
 
-Fixed | [`bug-fix-01-button-alert.html`](./bug-fix-01-button-alert.html) |
+## 📅 Daily Fixes Log
+
+| Day | Bug | Status | File |
+|-----|-----|--------|------|
+| 1   | Button click not working (wrong selector) | ✅ Fixed | [`bug-fix-01-button-alert.html`](./bug-fix-01-button-alert.html) |
 | 2   | Text not updating on button click (script runs before DOM ready) | ✅ Fixed | [`bug-fix-02-update-text.html`](./bug-fix-02-update-text.html) |
 | 3   | Form doesn't log submission (missing `preventDefault`) | ✅ Fixed | [`bug-fix-03-silent-logic-error.html`](./bug-fix-03-silent-logic-error.html) |
 
+---
 
 
 ## 💡 How I Solve Each Bug
