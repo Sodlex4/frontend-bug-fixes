@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Bug</title>
+</head>
+<body>
+  <h2>Bug #3: Submit Fails</h2>
+  
+  <form id="myForm">
+    <input type="text" placeholder="Enter your name" />
+    <button type="submit">Submit</button>
+  </form>
+
+  <script>
+    document.getElementById("myForm").addEventListener("submit", function (e) {
+ e.preventDefault() 
+      console.log("Form submitted!");
+    });
+  </script>
+</body>
+</html>
