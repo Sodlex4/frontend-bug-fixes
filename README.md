@@ -31,8 +31,10 @@ This project helps me:
 | Day | Bug | Status | File |
 |-----|-----|--------|------|
 | 1   | Button click not working (wrong selector) | ✅ Fixed | [`bug-fix-01-button-alert.html`](./bug-fix-01-button-alert.html) |
+| 2   | Text not updating on button click (script runs before DOM ready) | ✅ Fixed | [`bug-fix-02-update-text.html`](./bug-fix-02-update-text.html) |
 
 ---
+
 
 ## 💡 How I Solve Each Bug
 
